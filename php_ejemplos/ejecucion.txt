@@ -1,0 +1,2 @@
+ C:\xampp\php\php.exe -f .\primer.php
+ ruta del exe -f programa
