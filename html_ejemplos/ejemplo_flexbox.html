@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas en Dos Columnas</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1 1 50%; /* Cada columna ocupa el 50% del ancho */
+            box-sizing: border-box;
+            padding: 10px; /* Espaciado interno */
+        }
+        ul {
+            list-style-type: none; /* Quitar viñetas */
+            padding: 0; /* Quitar padding */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li>Elemento 5</li>
+                <li>Elemento 6</li>
+                <li>Elemento 7</li>
+                <li>Elemento 8</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
